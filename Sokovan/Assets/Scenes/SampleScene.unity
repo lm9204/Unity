@@ -430,7 +430,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &136617636
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1689,6 +1689,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a264a74614541e4d8d31cabd116e522, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  winUI: {fileID: 136617635}
   itemBoxes:
   - {fileID: 83165356}
   - {fileID: 718504792}
@@ -2110,6 +2111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fbc7c31fe779fa43900666a7e77041e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 1578044166}
   speed: 5
 --- !u!1 &1989146364
 GameObject:
